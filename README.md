@@ -21,6 +21,7 @@ Required:
 4. z - z-coordinate of the query point, in angstroms
 
 Optional:
+
 5. epsilon_h - hydrophobic interaction energy, in kcal/mol
 6. sigma - Van der Waals radius of amino acids, in angstroms
 
