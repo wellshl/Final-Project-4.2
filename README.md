@@ -37,5 +37,7 @@ LJpotential(inputfile = "1AHO, x = 10, y = 12, z = 8)
 
 ### References
 
-[1] Veitshans T, Klimov D, Thirumalai D. Protein folding kinetics: Timescales, pathways and energy landscapes in terms of sequence-dependent properties. Fold Des. 1997;2(1):1–22. 
-[2] http://www.sigmaaldrich.com/life-science/metabolomics/learning-center/amino-acid-reference-chart.html
+[1] http://www.sigmaaldrich.com/life-science/metabolomics/learning-center/amino-acid-reference-chart.html
+
+[2] Veitshans T, Klimov D, Thirumalai D. Protein folding kinetics: Timescales, pathways and energy landscapes in terms of sequence-dependent properties. Fold Des. 1997;2(1):1–22. 
+
