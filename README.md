@@ -28,5 +28,5 @@ If optional inputs are not specified, we will use a default epsilon_h value of 1
 ### Usage
 
 ```{r}
-LPpotential(inputfile = "1G4I.pdb", ???, ???, ???)
+LJpotential(inputfile = "1G4I.pdb", ???, ???, ???)
 ```
