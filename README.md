@@ -22,7 +22,7 @@ Required:
 
 Optional:
 
-5. epsilon_h - hydrophobic interaction energy, in kcal/mol
+5. epsilon_h - hydrophobic potential, in kcal/mol
 6. sigma - Van der Waals radius of amino acids, in angstroms
 
 If optional inputs are not specified, we will use a default epsilon_h value of 1 kcal/mol and a default sigma value of 5 angstroms, adapted from Veitshans, Klimov, & Thirumalai (1996).
