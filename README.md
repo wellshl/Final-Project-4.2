@@ -35,9 +35,16 @@ If optional inputs are not specified, we will use a default epsilon_h value of 1
 LJpotential(inputfile = "1AHO.pdb", x = 10, y = 12, z = 8)
 ```
 
+Alternately, using sigma and epsilon values from Kravats et al. [3]
+```{r}
+LJpotential(inputfile = "1AHO.pdb", x = 10, y = 12, z = 8, epsilon_h = 2.125, sigma = 3.8)
+```
+
 ### References
 
 [1] http://www.sigmaaldrich.com/life-science/metabolomics/learning-center/amino-acid-reference-chart.html
 
 [2] Veitshans T, Klimov D, Thirumalai D. Protein folding kinetics: Timescales, pathways and energy landscapes in terms of sequence-dependent properties. Fold Des. 1997;2(1):1–22. 
+
+[3] Kravats A., Jayasinghe M., Stan G. Unfolding and translocation pathway of substrate protein controlled by structure in repetitive allosteric cycles of the ClpY ATPase. Proc. Natl. Acad. Sci. USA. 2011;108:2234–2239.
 
