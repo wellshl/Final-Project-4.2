@@ -32,7 +32,7 @@ If optional inputs are not specified, we will use a default epsilon_h value of 1
 ### Sample Usage
 
 ```{r}
-LJpotential(inputfile = "1AHO, x = 10, y = 12, z = 8)
+LJpotential(inputfile = "1AHO.pdb", x = 10, y = 12, z = 8)
 ```
 
 ### References
