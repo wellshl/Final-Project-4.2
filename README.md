@@ -9,7 +9,7 @@ This tool is part of a set of bioinformatic and biological structure tools creat
 
 ## General
 
-The R tool that accomplishes this task is named LJpotential. LJpotential takes 4 required inputs (inputfile, x, y, z) and 2 optional inputs (epsilon, sigma). The x, y, and z inputs are the coordinates of the query point. The inputfile is the name of the PDB file from which we will calculate the Lennard-Jones potential. Because default PDB files include all atoms in an amino acid residue, not just the alpha carbons, we have written this code so that it can process either a default PDB file or a PDB file containing only alpha carbons. The code will run after loading the function from the LJpotential.rmd file. The calculated Lennard-Jones potential, expressed in kcal/mol, will display in the console.
+The R tool that accomplishes this task is named LJpotential. LJpotential takes 4 required inputs (inputfile, x, y, z) and 2 optional inputs (epsilon_h, sigma). The x, y, and z inputs are the coordinates of the query point. The inputfile is the name of the PDB file from which we will calculate the Lennard-Jones potential. Because default PDB files include all atoms in an amino acid residue, not just the alpha carbons, we have written this code so that it can process either a default PDB file or a PDB file containing only alpha carbons. The code will run after loading the function from the LJpotential.rmd file. The calculated Lennard-Jones potential, expressed in kcal/mol, will display in the console.
 
 ### Input Options for LJpotential:
 
