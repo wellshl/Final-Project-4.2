@@ -14,12 +14,14 @@ The R tool that accomplishes this task is named LJpotential. LJpotential takes 4
 ### Input Options for LJpotential:
 
 Required:
+
 1. inputfile - the name of the input file (1AHO.pdb)
 2. x - x-coordinate of the query point, in angstroms
 3. y - y-coordinate of the query point, in angstroms
 4. z - z-coordinate of the query point, in angstroms
 
 Optional:
+
 5. epsilon_h - hydrophobic potential in kcal/mol
 6. sigma - Van der Waals radius of amino acids in angstroms
 
@@ -118,7 +120,6 @@ LJpotential <- function(inputfile, x, y, z, epsilon_h, sigma){
   LJ_tot <- sum(alphaC$VLJ)
   print(LJ_tot)
 }
-  
-  
 
 ```
+
